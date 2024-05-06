@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "pintamod:block/bingusblock",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "pintamod:block/bingusblock",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "pintamod:block/bingusblock"
+    },
+    "facing=south": {
+      "model": "pintamod:block/bingusblock",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "pintamod:block/bingusblock",
+      "x": -90
+    },
+    "facing=west": {
+      "model": "pintamod:block/bingusblock",
+      "y": 270
+    }
+  }
+}
