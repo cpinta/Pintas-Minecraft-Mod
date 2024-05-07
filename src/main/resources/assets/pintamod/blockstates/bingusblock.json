@@ -1,26 +1,72 @@
 {
   "variants": {
-    "facing=down": {
-      "model": "pintamod:block/bingusblock",
+    "facing=down,eating=0": {
+      "model": "pintamod:block/bingusblock_empty",
       "x": 90
     },
-    "facing=east": {
-      "model": "pintamod:block/bingusblock",
+    "facing=east,eating=0": {
+      "model": "pintamod:block/bingusblock_empty",
       "y": 90
     },
-    "facing=north": {
-      "model": "pintamod:block/bingusblock"
+    "facing=north,eating=0": {
+      "model": "pintamod:block/bingusblock_empty"
     },
-    "facing=south": {
-      "model": "pintamod:block/bingusblock",
+    "facing=south,eating=0": {
+      "model": "pintamod:block/bingusblock_empty",
       "y": 180
     },
-    "facing=up": {
-      "model": "pintamod:block/bingusblock",
+    "facing=up,eating=0": {
+      "model": "pintamod:block/bingusblock_empty",
       "x": -90
     },
-    "facing=west": {
-      "model": "pintamod:block/bingusblock",
+    "facing=west,eating=0": {
+      "model": "pintamod:block/bingusblock_empty",
+      "y": 270
+    },
+    "facing=down,eating=1": {
+      "model": "pintamod:block/bingusblock_chewing",
+      "x": 90
+    },
+    "facing=east,eating=1": {
+      "model": "pintamod:block/bingusblock_chewing",
+      "y": 90
+    },
+    "facing=north,eating=1": {
+      "model": "pintamod:block/bingusblock_chewing"
+    },
+    "facing=south,eating=1": {
+      "model": "pintamod:block/bingusblock_chewing",
+      "y": 180
+    },
+    "facing=up,eating=1": {
+      "model": "pintamod:block/bingusblock_chewing",
+      "x": -90
+    },
+    "facing=west,eating=1": {
+      "model": "pintamod:block/bingusblock_chewing",
+      "y": 270
+    },
+    "facing=down,eating=2": {
+      "model": "pintamod:block/bingusblock_full",
+      "x": 90
+    },
+    "facing=east,eating=2": {
+      "model": "pintamod:block/bingusblock_full",
+      "y": 90
+    },
+    "facing=north,eating=2": {
+      "model": "pintamod:block/bingusblock_full"
+    },
+    "facing=south,eating=2": {
+      "model": "pintamod:block/bingusblock_full",
+      "y": 180
+    },
+    "facing=up,eating=2": {
+      "model": "pintamod:block/bingusblock_full",
+      "x": -90
+    },
+    "facing=west,eating=2": {
+      "model": "pintamod:block/bingusblock_full",
       "y": 270
     }
   }

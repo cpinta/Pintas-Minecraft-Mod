@@ -16,11 +16,16 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
 public class BlockInit {
+
+    public BlockInit(){
+
+    }
+
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             PintaMod.MODID);
 
     public static final RegistryObject<BingusBlock> BINGUS_BLOCK = BLOCKS.register("bingusblock", () -> new BingusBlock(
-            BlockBehaviour.Properties.of(Material.STONE)));
+            BlockBehaviour.Properties.of(Material.STONE).randomTicks()));
 
     private static <T extends Block> BlockWithItemHolder<T> registerBlock(String name, Supplier<T> block, Item.Properties properties) {
         RegistryObject<T> regBlock = BLOCKS.register(name, block);

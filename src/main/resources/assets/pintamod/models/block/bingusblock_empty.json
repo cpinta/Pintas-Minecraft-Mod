@@ -2,10 +2,10 @@
   "parent": "minecraft:block/block",
   "textures": {
     "bottom": "pintamod:block/bingusblock_bottom",
-    "side": "pintamod:block/bingusblock_side_other",
+    "side": "pintamod:block/bingusblock_side",
     "top": "pintamod:block/bingusblock_top",
-    "front": "pintamod:block/bingusblock",
-    "particle": "pintamod:block/bingusblock"
+    "front": "pintamod:block/bingusblock_face_empty",
+    "particle": "pintamod:block/bingusblock_face_empty"
   },
   "elements": [
     {

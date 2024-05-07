@@ -1,9 +1,9 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "north": "pintamod:block/bingusblock",
-    "east": "pintamod:block/bingusblock_side_other",
-    "west": "pintamod:block/bingusblock_side",
+    "north": "pintamod:block/bingusblock_face_empty",
+    "east": "pintamod:block/bingusblock_side",
+    "west": "pintamod:block/bingusblock_side_flipped",
     "down": "pintamod:block/bingusblock_bottom",
     "south": "pintamod:block/bingusblock_top",
     "up": "pintamod:block/bingusblock_top"
