@@ -68,6 +68,29 @@
     "facing=west,eating=2": {
       "model": "pintamod:block/bingusblock_full",
       "y": 270
+    },
+    "facing=down,eating=3": {
+      "model": "pintamod:block/bingusblock_spewing",
+      "x": 90
+    },
+    "facing=east,eating=3": {
+      "model": "pintamod:block/bingusblock_spewing",
+      "y": 90
+    },
+    "facing=north,eating=3": {
+      "model": "pintamod:block/bingusblock_spewing"
+    },
+    "facing=south,eating=3": {
+      "model": "pintamod:block/bingusblock_spewing",
+      "y": 180
+    },
+    "facing=up,eating=3": {
+      "model": "pintamod:block/bingusblock_spewing",
+      "x": -90
+    },
+    "facing=west,eating=3": {
+      "model": "pintamod:block/bingusblock_spewing",
+      "y": 270
     }
   }
 }
