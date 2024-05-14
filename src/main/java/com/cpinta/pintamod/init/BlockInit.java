@@ -13,6 +13,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Supplier;
 
 public class BlockInit {
@@ -24,8 +26,8 @@ public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             PintaMod.MODID);
 
-    public static final RegistryObject<BingusBlock> BINGUS_BLOCK = BLOCKS.register("bingusblock", () -> new BingusBlock(
-            BlockBehaviour.Properties.of(Material.STONE).randomTicks()));
+    public static final RegistryObject<BingusBlock> BINGUS_BLOCK = BLOCKS.register("bingusblock",
+            () -> new BingusBlock(Block.Properties.of(Material.STONE).randomTicks()));
 
     private static <T extends Block> BlockWithItemHolder<T> registerBlock(String name, Supplier<T> block, Item.Properties properties) {
         RegistryObject<T> regBlock = BLOCKS.register(name, block);
@@ -40,4 +42,10 @@ public class BlockInit {
 
     public record BlockWithItemHolder<T extends Block>(RegistryObject<T> block, RegistryObject<BlockItem> blockItem) {
     }
+
+
+    public static
+    List<String> items = Arrays.asList(
+            "item.minecraft.cocoa_beans",
+            "item.minecraft.cookie");
 }
